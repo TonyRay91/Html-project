@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jquery</title>
+  <link rel="icon" type="img/icon" href="img/favicon-icon.ico">
+  <link rel="stylesheet" href="css/bootstrap5.css">
+  <link rel="stylesheet" href="css/jquery.css">
+  <link rel="stylesheet" href="css/nice-select.css">
+
+
+</head>
+
+<body class="jquery">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">HTML</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Index</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page-bootstrap.html">Page-bootstrap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="table-tags.html">Table tags</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nth-child.html">Nth-child</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page-strugture.html">Page-structure</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="jquery.html">Jquery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="transform.html">Transform</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="animation.html">Animation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="time container-sm">
+      <div class="timer" id="timer">
+        <div class="timer" id="days"></div>
+        <div class="timer" id="hours"></div>
+        <div class="timer" id="minutes"></div>
+        <div class="timer" id="seconds"></div>
+      </div>
+    </div>
+    <div class="bs-example form-container">
+      <form>
+        <div class="input-row">
+          <label for="fname">Имя пользователя:</label>
+          <input type="text" class="fname" id="fname" name="fname" placeholder="Имя пользователя"><br>
+        </div>
+        <div class="input-row">
+          <label for="lname">Фамилия пользователя:</label>
+          <input type="text" class="lname" id="lname" name="lname" placeholder="Фамилия пользователя"><br>
+        </div>
+        <div class="input-row">
+          <label for="phone">Номер телефона:</label>
+          <input type="tel" class="phone" id="phone" name="phone"><br>
+        </div>
+        <div class="input-row">
+          <label for="w3review">Оставьте отзыв о нас</label>
+          <textarea id="w3review" name="w3review" rows="4" cols="50"
+            placeholder="Ведите сюда отзыв о нашей компании и продукции.">
+</textarea>
+        </div>
+        <div class="check-container container-sm">
+          <label for="checkbox" class="label-checkbox"></label>
+          <input type="checkbox" class="checkbox" id="checkbox" name="checkbox">
+          <div class="check-description">Соглашаюсь на обработку данных</div>
+        </div>
+        <div class="input-row">
+          <div>Choose a phone:</div>
+          <select name="select">
+            <option value="iphone">Iphone</option>
+            <option value="xiaomi">Xiaomi</option>
+            <option value="nokia">Nokia</option>
+            <option value="samsung">Samsung</option>
+          </select>
+        </div>
+        <button class="btn mt-4">Отправить</button>
+      </form>
+    </div>
+    <div class="container sprite-container">
+      <a href="#" class="facebook"></a>
+      <a href="#" class="twiter"></a>
+      <a href="#" class="youtube"></a>
+      <a href="#" class="instagram"></a>
+      <a href="#" class="linkedin"></a>
+      <a href="#" class="tumblr"></a>
+      <a href="#" class="google"></a>
+    </div>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/timer.js"></script>
+  <script src="js/jquery.mask.js"></script>
+  <script src="js/bootstrap5.js"></script>
+  <script src="js/jquery.nice-select.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

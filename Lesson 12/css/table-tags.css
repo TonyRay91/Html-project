@@ -1,0 +1,41 @@
+:root {
+--primary-color: #000000;
+--second-color: #FFFF00;
+}
+
+  h1 {
+  font-size: 60px;
+  text-align: center;
+  padding: 48px 12px 12px;
+  }
+
+ 
+  .tags-item {
+    display: flex;
+    border: 1px solid #5ee67b;
+    width: 100%;
+    }
+  
+    .tags-item__name {
+    width: 420px;
+    min-width: 420px;
+    background: var(--primary-color);
+    font-size: 20px;
+    color: #38cccc;
+    text-align: center;
+    align-items: center;
+    }
+  
+    .tags-item__description {
+    background: var(--second-color);
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    }
+
+  .b-words {
+  color: blueviolet;
+  }
+
+  

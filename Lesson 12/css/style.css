@@ -1,0 +1,190 @@
+header {
+margin-bottom: 20px;
+}
+
+.col-3,
+.col-4,
+.col-6,
+.col-2,
+.col-1,
+.col-12,
+.col-xl-3,
+.col-xl-6 {
+border: 1px solid #000;
+padding: 14px 0px;
+text-align: center;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.page-bootstrap {
+background-color: #FFF3E0;
+}
+
+.example-title {
+margin-top:45px ;
+}
+
+.alert-warning {
+background-color: #EF9A9A;
+}
+
+.spiner-example {
+width: 100px;
+height: 100px;
+}
+
+.nth-child{
+  margin-bottom: 55px;
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  background: #CE93D8;
+  font-size: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-child .item:first-child {
+background: #80D8FF;
+}
+
+.last-child .item:last-child {
+  background: #80D8FF;
+}
+
+.nth-child3n .item:nth-child(3n) {
+  background: #80D8FF;
+}
+
+.nth-child3n1 .item:nth-child(3n+1) {
+  background: #80D8FF;
+  width: 100px;
+  height: 100px;
+}
+
+.nth-childodd .item:nth-child(odd) {
+  background: #80D8FF;
+}
+.nth-childeven .item:nth-child(even) {
+  background: #80D8FF;
+}
+
+.product-container {
+  display: flex;
+  margin: 90 auto 120px;
+}
+
+.product {
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #e4e1e1;
+  border-radius: 5px;
+  align-self: center;
+  color: #212121;
+  transition: .5s;
+  cursor: pointer;
+}
+
+img {
+  margin-bottom: 12px;
+  width: 191px;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.product-item {
+  font-size: 12px;
+  color: #212121;
+}
+
+p {
+  margin-top: -15px;
+  margin-bottom: 1rem;
+}
+
+.product:nth-child(4) {
+  width: 150%;
+  background-color: #90A4AE;
+  height: 535px;
+}
+
+.product:nth-child(4) .product-title {
+  font-size: 20px;
+}
+
+.product:nth-child(4) .product-item {
+  font-size: 12px;
+}
+
+.product:nth-child(2n+3) {
+  width: 120%;
+  background-color: #78909C;
+  height: 495px;
+}
+
+.product:nth-child(4n+2) {
+  width: 120%;
+  height: 475px;
+  background-color: #607D8B;
+}
+
+.product:first-child,
+.product:last-child {
+    background: #546E7A;
+    height: 470px;
+}
+
+.product:hover  {
+  color: #fff;
+  width: 150%;
+  background-color: #211d1d;
+  height: 500px;
+}
+
+.page-structure {
+background-color: #000;
+}
+
+.col-xl-12,
+.col-xl-8,
+.col-xl-4 {
+background-color:#546E7A;
+border: 5px solid #fff;
+color: #fff;
+font-size: 20px;
+align-items: center;
+text-align: center;
+}
+
+.col-xl-4 {
+padding-top: 40px;
+}
+
+.section {
+background-color: #424242;
+margin-bottom: 15px;
+}
+
+.col-sm-12 {
+  background-color:#546E7A;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+

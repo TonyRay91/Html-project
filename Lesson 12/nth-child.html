@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nth-child</title>
+  <link rel="icon" type="img/icon" href="img/favicon-icon.ico">
+  <link rel="stylesheet" href="css/bootstrap5.css">
+  <link rel="stylesheet" href="css/style.css">
+<body class="position-relative">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">HTML</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Index</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page-bootstrap.html">Page-bootstrap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="table-tags.html">Table tags</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nth-child.html">Nth-child</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="page-strugture.html">Page-structure</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="jquery.html">Jquery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="transform.html">Transform</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="animation.html">Animation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+     <div class="container nth-child">
+    <div class="nth-example first-child">
+      <h2 class="nth-example__title">:first-child</h2>
+      <div class="d-flex justify-content-between flex-wrap">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+      <div class="item">10</div>
+    </div>
+  </div>
+  </div>
+  <div class="container nth-child">
+    <div class="nth-example last-child">
+      <h2 class="nth-example__title">:last-child</h2>
+      <div class="d-flex justify-content-between flex-wrap">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+      <div class="item">10</div>
+    </div>
+  </div>
+  </div>
+  <div class="container nth-child">
+    <div class="nth-example nth-child3n">
+      <h2 class="nth-example__title">:nth-child(3n)</h2>
+      <div class="d-flex justify-content-between flex-wrap">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+      <div class="item">10</div>
+    </div>
+  </div>
+  </div>
+  <div class="container nth-child">
+    <div class="nth-example nth-child3n1">
+      <h2 class="nth-example__title">:nth-child(3n+1)</h2>
+      <div class="d-flex justify-content-between flex-wrap">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+      <div class="item">10</div>
+    </div>
+  </div>
+  </div>
+  <div class="container nth-child">
+    <div class="nth-example nth-childodd">
+      <h2 class="nth-example__title">:nth-child(odd)</h2>
+      <div class="d-flex justify-content-between flex-wrap">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+      <div class="item">10</div>
+    </div>
+  </div>
+  </div>
+  <div class="container nth-child">
+    <div class="nth-example nth-childeven">
+      <h2 class="nth-example__title">:nth-child(even)</h2>
+      <div class="d-flex justify-content-between flex-wrap">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+      <div class="item">10</div>
+    </div>
+  </div>
+  </div>
+  <div class="container-sm product-container">
+        <div class="product">
+          <div class="product-img">
+            <img src="img/position-1.png" class="img-fluid" alt="picture-1">
+      </div>
+      <div class="product-title">Аккумуляторная электро импульсная USB зажигалка ZIPPO 215</div>
+      <div class="product-item">
+        <p>Поджиг - Электрический</p>
+        <p>Дополнительные характеристики</p>
+        <p>Поджиг: Электрический,</p>
+        <p>Тип: Импульсный,</p> 
+        <p>Материал: Металл ,</p> 
+        <p> Зарядка: USB,</p> 
+        <p>Цвет: Разноцветный,</p> 
+        <p>Размер: 57х37х13 мм</p>
+      </div>
+      </div>
+
+        <div class="product">
+          <div class="product-img">
+            <img src="img/position-2.jpg" alt="picture-2">
+      </div>
+      <div class="product-title">Аккумуляторная электро импульсная USB зажигалка ZIPPO 215</div>
+      <div class="product-item">
+        <p>Поджиг - Электрический</p>
+        <p>Дополнительные характеристики</p>
+        <p>Поджиг: Электрический,</p>
+        <p>Тип: Импульсный,</p> 
+        <p>Материал: Металл ,</p> 
+        <p> Зарядка: USB,</p> 
+        <p>Цвет: Разноцветный,</p> 
+        <p>Размер: 57х37х13 мм</p>
+      </div>
+      </div>
+      <div class="product">
+        <div class="product-img">
+          <img src="img/position-4.webp" alt="picture-3">
+    </div>
+    <div class="product-title">Аккумуляторная электро импульсная USB зажигалка ZIPPO 215</div>
+    <div class="product-item">
+      <p>Поджиг - Электрический</p>
+      <p>Дополнительные характеристики</p>
+      <p>Поджиг: Электрический,</p>
+      <p>Тип: Импульсный,</p> 
+      <p>Материал: Металл ,</p> 
+      <p> Зарядка: USB,</p> 
+      <p>Цвет: Разноцветный,</p> 
+      <p>Размер: 57х37х13 мм</p>
+    </div>
+    </div>
+    <div class="product">
+      <div class="product-img">
+        <img src="img/position-3.jpg" alt="picture-4">
+  </div>
+  <div class="product-title">Аккумуляторная электро импульсная USB зажигалка ZIPPO 215</div>
+  <div class="product-item">
+    <p>Поджиг - Электрический</p>
+    <p>Дополнительные характеристики</p>
+    <p>Поджиг: Электрический,</p>
+    <p>Тип: Импульсный,</p> 
+    <p>Материал: Металл ,</p> 
+    <p> Зарядка: USB,</p> 
+    <p>Цвет: Разноцветный,</p> 
+    <p>Размер: 57х37х13 мм</p>
+  </div>
+  </div>
+  <div class="product">
+    <div class="product-img">
+      <img src="img/position-4.webp" alt="picture-5">
+</div>
+<div class="product-title">Аккумуляторная электро импульсная USB зажигалка ZIPPO 215</div>
+<div class="product-item">
+  <p>Поджиг - Электрический</p>
+  <p>Дополнительные характеристики</p>
+  <p>Поджиг: Электрический,</p>
+  <p>Тип: Импульсный,</p> 
+  <p>Материал: Металл ,</p> 
+  <p> Зарядка: USB,</p> 
+  <p>Цвет: Разноцветный,</p> 
+  <p>Размер: 57х37х13 мм</p>
+</div>
+</div>
+<div class="product">
+  <div class="product-img">
+    <img src="img/position-2.jpg" alt="picture-6">
+</div>
+<div class="product-title">Аккумуляторная электро импульсная USB зажигалка ZIPPO 215</div>
+<div class="product-item">
+<p>Поджиг - Электрический</p>
+<p>Дополнительные характеристики</p>
+<p>Поджиг: Электрический,</p>
+<p>Тип: Импульсный,</p> 
+<p>Материал: Металл ,</p> 
+<p> Зарядка: USB,</p> 
+<p>Цвет: Разноцветный,</p> 
+<p>Размер: 57х37х13 мм</p>
+</div>
+</div>
+ <div class="product">
+    <div class="product-img">
+      <img src="img/position-1.png" alt="picture-7">
+  </div>
+  <div class="product-title">Аккумуляторная электро импульсная USB зажигалка ZIPPO 215</div>
+  <div class="product-item">
+  <p>Поджиг - Электрический</p>
+  <p>Дополнительные характеристики</p>
+  <p>Поджиг: Электрический,</p>
+  <p>Тип: Импульсный,</p> 
+  <p>Материал: Металл ,</p> 
+  <p> Зарядка: USB,</p> 
+  <p>Цвет: Разноцветный,</p> 
+  <p>Размер: 57х37х13 мм</p>
+  </div>
+  </div>
+    </div>
+    </div>
+  </div>
+  </div>
+ 
+
+</main>
+  <script src="js/bootstrap5.js"></script>
+</body>
+</html>
